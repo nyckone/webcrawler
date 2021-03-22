@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.1",
+    "node-worker-threads-pool": "^1.4.3",
+    "postman-request": "^2.88.1-postman.28",
+    "validator": "^13.5.2",
+    "yargs": "^16.2.0"
+  }
+}
